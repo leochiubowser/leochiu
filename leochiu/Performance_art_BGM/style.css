@@ -1,0 +1,117 @@
+body {
+    background-color: black;
+    user-select: none;
+
+}
+
+#timer_title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#time_controller {
+    background-color: cornflowerblue;
+    height: 5cm;
+    width: 7cm;
+    text-align: center;
+    position: fixed;
+    bottom: 0.8cm;
+    right: 0.8cm;
+}
+
+.timer_controller {
+    background-color: coral;
+}
+
+#music_controller_title {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    height: 1.5cm;
+    border-bottom: 2px solid rgb(255, 128, 0);
+    color: white;
+
+}
+
+#bgm_btn {
+    position: absolute;
+    right: 1%;
+    height: 80%;
+    width: 40%;
+    border-left: 2px solid rgb(255, 0, 0);
+    display: flex;
+    justify-content: center;
+}
+
+
+#bgm_title {
+    text-align: center;
+    color: white;
+}
+
+#giselle_bgm {
+    top: 2cm;
+    position: absolute;
+    top: 35%;
+    left: 66.6%;
+    transform: translate(-50%, -50%);
+    width: 2.1cm;
+    height: 2cm;
+    background-color: greenyellow;
+    border: 3px solid green;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+
+#sleep_bgm {
+    position: absolute;
+    top: 35%;
+    left: 33.3%;
+    transform: translate(-50%, -50%);
+    width: 2.1cm;
+    height: 2cm;
+    background-color: greenyellow;
+    border: 3px solid green;
+    border-radius: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+
+#sound_effect_control_btn {
+    position: absolute;
+    top: 33%;
+    right: 72%;
+    left: 28%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 1cm;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1cm;
+}
+
+.bgm {
+    background-color: rgb(255, 166, 0);
+    font-weight: bolder;
+    font-size: large;
+    height: 1.5cm;
+    border: 2px solid rgb(255, 166, 0);
+    border-radius: 5px;
+}
+
+#sound_effect_title {
+    position: absolute;
+    text-align: center;
+    left: 20%;
+    right: 80%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#a {
+    text-decoration: none;
+    color: white;
+}

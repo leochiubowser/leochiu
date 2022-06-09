@@ -1,0 +1,44 @@
+[
+    {
+        "user_name": "Leo Chiu",
+        "time": {
+            "year": "2022",
+            "month": "6",
+            "date": "1",
+            "day": "Wednesday",
+            "hour": "17",
+            "minute": "35",
+            "second": "59"
+        },
+        "title": "第一則公告",
+        "content": "歡迎使用這個聊天網站! 我是創建網站的人: Leo Chiu (管理者) 。由於安全性問題，請勿在留言處提及自己的密碼、身分證字號等重要個資! 請勿在留言中使用色情、暴力詞語! 最後請大家盡情的使用本網站的功能!"
+    },
+    {
+        "user_name": "1100293",
+        "time": {
+            "year": "2022",
+            "month": "6",
+            "date": "1",
+            "day": "Wednesday",
+            "hour": "17",
+            "minute": "45",
+            "second": "00"
+        },
+        "title": "訊息測試",
+        "content": "測試訊息! 網站正式開通!"
+    },
+    {
+        "user_name": "1100291",
+        "time": {
+            "year": "2022",
+            "month": "6",
+            "date": "1",
+            "day": "Wednesday",
+            "hour": "19",
+            "minute": "17",
+            "second": "00"
+        },
+        "title": "恭喜啦!",
+        "content": "測試訊息! 網站正式開通!"
+    }
+]
