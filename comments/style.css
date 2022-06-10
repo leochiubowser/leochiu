@@ -1,6 +1,6 @@
 span {
     position: absolute;
-    top: 54vh;
+    top: 52vh;
     width: 40vw;
     left: 50vw;
     right: 50vw;
@@ -8,31 +8,36 @@ span {
     overflow-x: hidden;
     overflow-y: auto;
     transform: translate(-50%, -50%);
-    padding: 50px 100px 5px 100px;
+    padding: 25px 100px 25px 100px;
     border: 1px solid gray;
     border-radius: 5px;
 }
 
 #submit {
     position: absolute;
-    left: 60vw;
-    bottom: 2mm;
+    left: 68vw;
+    bottom: 0.6cm;
     transform: translate(-50%, -50%);
+    z-index: 1;
 }
 
 #content {
+    height: 0.7cm;
+    width: 40vw;
+    border-radius: 5px;
     position: absolute;
-    left: 40vw;
-    bottom: 2mm;
-    border: 1px solid black;
+    left: 50vw;
+    bottom: 0.3cm;
+    border: 2px solid black;
     transform: translate(-50%, -50%);
+    z-index: 0;
 }
 
 #time {
     position: relative;
     left: 4cm;
-    bottom: 0.7cm;
-    font-weight: bolder;
+    bottom: 0.8cm;
+    font-weight: bold;
 }
 
 #author {
@@ -40,14 +45,12 @@ span {
     top: 0.5cm;
 }
 
-/* #author {} */
+#chat {
+    position: absolute;
+    top: 3.5cm;
+    left: 20vw;
+}
 
-
-
-/* #divs {
-    border: 1px solid gray;
-    border-radius: 5px;
-} */
 
 /*Module*/
 

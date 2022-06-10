@@ -81,7 +81,7 @@ function getTime(index) {
         return `${hour - index.hour}小時前`
     }
     else if (minute - index.minute > 0) {
-        return `${minute - index.hour}分鐘前`
+        return `${minute - index.minute}分鐘前`
     }
     else if (second - index.second > 0) {
         return `${second - index.second}秒前`
@@ -90,3 +90,15 @@ function getTime(index) {
         return "現在";
     }
 }
+
+//防呆機制 (內容不可以為空的)
+
+var content = document.getElementById("content")
+var submit = document.getElementById("submit")
+
+submit.addEventListener("click", () => {
+    if (content.value == "") {
+        alert("請輸入內容!")
+    }
+})
+
