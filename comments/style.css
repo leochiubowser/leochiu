@@ -1,28 +1,105 @@
-textarea {
-    position: absolute;
-    top: 0cm;
-}
-
 span {
     position: absolute;
-    width: 60vw;
+    top: 54vh;
+    width: 40vw;
     left: 50vw;
     right: 50vw;
+    height: 68vh;
+    overflow-x: hidden;
+    overflow-y: auto;
     transform: translate(-50%, -50%);
-    border: 1px solid black;
     padding: 50px 100px 5px 100px;
+    border: 1px solid gray;
+    border-radius: 5px;
 }
-
-/* #span2 {
-    position: absolute;
-    height: 1cm;
-    bottom: 0px;
-} */
-
 
 #submit {
     position: absolute;
-    left: 50vw;
-    top: 2cm;
+    left: 60vw;
+    bottom: 2mm;
     transform: translate(-50%, -50%);
 }
+
+#content {
+    position: absolute;
+    left: 40vw;
+    bottom: 2mm;
+    border: 1px solid black;
+    transform: translate(-50%, -50%);
+}
+
+#time {
+    position: relative;
+    left: 4cm;
+    bottom: 0.7cm;
+    font-weight: bolder;
+}
+
+#author {
+    position: relative;
+    top: 0.5cm;
+}
+
+/* #author {} */
+
+
+
+/* #divs {
+    border: 1px solid gray;
+    border-radius: 5px;
+} */
+
+/*Module*/
+
+
+/* @media screen and (min-width: 1466px) { */
+header {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 2cm;
+    background-color: rgb(255, 219, 37);
+}
+
+.a {
+    text-decoration: none;
+    color: black;
+    font-family: Microsoft YaHei;
+    font-size: 17px;
+}
+
+.a:hover {
+    color: rgb(75, 123, 157);
+}
+
+#icon {
+    position: relative;
+    top: 9px;
+    left: 30px;
+    border-radius: 40px;
+}
+
+#title_name {
+    position: relative;
+    top: -1.6cm;
+    text-align: center;
+}
+
+#main_nav {
+    display: flex;
+    position: absolute;
+    top: 20%;
+    right: 5%;
+}
+
+
+
+#a {
+    text-decoration: none;
+    color: black;
+}
+
+/* } */
+
+/* @media screen and (-width: 1466px) {} */

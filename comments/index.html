@@ -1,24 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../comments/style.css">
     <title>ANJH711 留言板</title>
+    <meta name="description" content="This is Leo Chiu's website.">
+    <meta name="keywords" content="Leo Chiu">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Leo Chiu">
+    <link rel="icon" href="../image/LeoChiuIcon.jpg">
+    <link rel="stylesheet" href="../comments/style.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
 </head>
 
+
 <body>
+    <header id="header">
+        <img src="../image/LeoChiuIcon.jpg" id="icon" height="60">
+        <a href="../index.html" id="a">
+            <h1 id="title_name">Leo Chiu</h1>
+        </a>
+        <nav id="main_nav">
+            <ul><a href="../news/news.html" class="a">消息</a></ul>
+            <ul><a href="../picture/picture.html" class="a">照片</a></ul>
+            <ul><a href="../course/course.html" class="a">介紹</a></ul>
+        </nav>
+    </header>
+
+
+
     <form method="post" action="/">
-        <input type="text" name="username" placeholder="請輸入您的名字: " id="name" />
-        <input type="text" name="title" placeholder="請輸入標題: " id="title" />
-        <textarea name="content" cols="30" rows="10" placeholder="請輸入內文: "></textarea>
+        <input type="content" name="content" placeholder="請輸入內文:  " id="content" />
         <input type="submit" id="submit" value="傳送" />
     </form>
     <span id="span"></span>
-    <!-- <span id="span2"></span> -->
     <script src="../comments/script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
 </body>
 
 </html>
