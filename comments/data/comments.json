@@ -1,1 +1,72 @@
-[{"user_name":"Leo Chiu","time":{"year":"2022","month":"6","date":"1","day":"Wednesday","hour":"17","minute":"35","second":"59"},"title":"第一則公告","content":"歡迎使用這個聊天網站! 我是創建網站的人: Leo Chiu (管理者) 。由於安全性問題，請勿在留言處提及自己的密碼、身分證字號等重要個資! 請勿在留言中使用色情、暴力詞語! 最後請大家盡情的使用本網站的功能!"},{"user_name":"","time":{"year":2022,"month":6,"date":10,"day":"Friday","hour":13,"minute":29,"second":57},"title":"","content":"a"},{"user_name":"aa","time":{"year":2022,"month":6,"date":10,"day":"Friday","hour":13,"minute":30,"second":1},"title":"aaaa","content":""},{"user_name":"aa","time":{"year":2022,"month":6,"date":10,"day":"Friday","hour":13,"minute":30,"second":29},"title":"aaaa","content":""}]
+[
+    {
+        "user_name": "Leo Chiu",
+        "time": {
+            "year": "2022",
+            "month": "6",
+            "date": "1",
+            "day": "Wednesday",
+            "hour": "17",
+            "minute": "35",
+            "second": "59"
+        },
+        "title": "第一則公告",
+        "content": "歡迎使用這個聊天網站! 我是創建網站的人: Leo Chiu (管理者) 。由於安全性問題，請勿在留言處提及自己的密碼、身分證字號等重要個資! 請勿在留言中使用色情、暴力詞語! 最後請大家盡情的使用本網站的功能!"
+    },
+    {
+        "user_name": "庫巴",
+        "time": {
+            "year": 2022,
+            "month": 6,
+            "date": 10,
+            "day": "Friday",
+            "hour": 13,
+            "minute": 35,
+            "second": 21
+        },
+        "title": "第二則公告",
+        "content": "我們創建了這個網站，不過仍十分不穩定!"
+    },
+    {
+        "user_name": "Leo Chiu",
+        "time": {
+            "year": 2022,
+            "month": 6,
+            "date": 10,
+            "day": "Friday",
+            "hour": 13,
+            "minute": 37,
+            "second": 13
+        },
+        "title": "第三則公告",
+        "content": "我們非常開心能夠製作這個網站!"
+    },
+    {
+        "user_name": "Bxhxbhd",
+        "time": {
+            "year": 2022,
+            "month": 6,
+            "date": 10,
+            "day": "Friday",
+            "hour": 13,
+            "minute": 37,
+            "second": 54
+        },
+        "title": " Chcjdn",
+        "content": "Xbxbc"
+    },
+    {
+        "user_name": "Leo Chiu",
+        "time": {
+            "year": 2022,
+            "month": 6,
+            "date": 10,
+            "day": "Friday",
+            "hour": 13,
+            "minute": 38,
+            "second": 48
+        },
+        "title": "我的留言",
+        "content": "我很高興喔！"
+    }
+]
