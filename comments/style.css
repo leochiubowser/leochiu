@@ -1,0 +1,28 @@
+textarea {
+    position: absolute;
+    top: 0cm;
+}
+
+span {
+    position: absolute;
+    width: 60vw;
+    left: 50vw;
+    right: 50vw;
+    transform: translate(-50%, -50%);
+    border: 1px solid black;
+    padding: 50px 100px 5px 100px;
+}
+
+/* #span2 {
+    position: absolute;
+    height: 1cm;
+    bottom: 0px;
+} */
+
+
+#submit {
+    position: absolute;
+    left: 50vw;
+    top: 2cm;
+    transform: translate(-50%, -50%);
+}
